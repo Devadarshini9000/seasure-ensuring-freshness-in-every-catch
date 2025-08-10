@@ -50,7 +50,7 @@ Non-fresh: 5°C – 10°C
 3) Preprocessing & Augmentation (prep.py):
 Image resizing: 128×128 px.
 Normalization: pixel values scaled to [0,1].
-Augmentations: rotation, shift, shear, zoom, horizontal flip
+Augmentations: rotation, shift, shear, zoom, horizontal flip.
 
 4) Model Training:
 CNN architecture: 3× Conv2D + MaxPooling2D, Flatten, Dense layers.
