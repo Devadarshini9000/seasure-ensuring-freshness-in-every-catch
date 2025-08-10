@@ -1,4 +1,4 @@
-# 🐟 seasure: ensuring freshness in every catch (Fish Freshness Detection System) 
+# 🐟 seasure: ensuring freshness in every catch (fish freshness detection system) 
 
 A **deep learning and computer vision application** that predicts fish freshness by analyzing eye and gill images, combined with temperature estimation, to deliver a confidence score, freshness score and level.
 Built with **TensorFlow/Keras** for model training and **Streamlit** for an interactive web interface.
