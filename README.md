@@ -48,23 +48,23 @@ Non-fresh: 5°C – 10°C
 (temp.py script creates fish_freshness_with_temperature.csv)
 
 3) Preprocessing & Augmentation (prep.py):
-Image resizing: 128×128 px
-Normalization: pixel values scaled to [0,1]
+Image resizing: 128×128 px.
+Normalization: pixel values scaled to [0,1].
 Augmentations: rotation, shift, shear, zoom, horizontal flip
 
 4) Model Training:
-CNN architecture: 3× Conv2D + MaxPooling2D, Flatten, Dense layers
-Optimizer: Adam (LR=0.001), Loss: categorical cross entropy
-Early stopping & model checkpointing (temp_train.py)
-Final model saved as fish_freshness_model.h5
+CNN architecture: 3× Conv2D + MaxPooling2D, Flatten, Dense layers.
+Optimizer: Adam (LR=0.001), Loss: categorical cross entropy.
+Early stopping & model checkpointing (temp_train.py).
+Final model saved as fish_freshness_model.h5.
 
 5) Prediction & UI:
-Users upload an image via Streamlit (fish_test.py or temp_test.py)
-Model predicts freshness category & confidence
+Users upload an image via Streamlit (fish_test.py or temp_test.py).
+Model predicts freshness category & confidence.
 temp_test.py also:
-Estimates storage temperature
-Calculates freshness score (0–100)
-Displays freshness level: High, Medium, Low (color-coded)
+Estimates storage temperature,
+Calculates freshness score (0–100),
+Displays freshness level: High, Medium, Low (color-coded).
 
 ## 💻 How to Run Locally
 
@@ -103,3 +103,8 @@ The app will be live at: http://localhost:8501
 [💻 GitHub](https://github.com/Devadarshini9000)
 
 “Ensuring freshness in every catch — powered by AI.”
+
+<img width="431" height="674" alt="image" src="https://github.com/user-attachments/assets/c8b7b720-e062-49da-9813-b141c6f2723c" />
+<img width="510" height="746" alt="image" src="https://github.com/user-attachments/assets/9891c26e-c4bc-4814-a974-0ecb7e8e1920" />
+
+
