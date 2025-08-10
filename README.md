@@ -104,7 +104,7 @@ The app will be live at: http://localhost:8501
 
 “Ensuring freshness in every catch — powered by AI.”
 
-<img width="431" height="674" alt="image" src="https://github.com/user-attachments/assets/c8b7b720-e062-49da-9813-b141c6f2723c" />
+<img width="375" height="637" alt="image" src="https://github.com/user-attachments/assets/79d0853a-615a-4b7f-a9c0-7f72fda1207d" />
 <img width="510" height="746" alt="image" src="https://github.com/user-attachments/assets/9891c26e-c4bc-4814-a974-0ecb7e8e1920" />
 
 
