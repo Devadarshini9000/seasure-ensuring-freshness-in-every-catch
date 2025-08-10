@@ -6,10 +6,10 @@ Built with **TensorFlow/Keras** for model training and **Streamlit** for an inte
 ## 🚀 Features
 
 - 🧠 CNN-powered classification into 4 categories:
--    Eye-Fresh
--    Eye-Non-Fresh
--    Gill-Fresh
--    Gill-Non-Fresh
+Eye-Fresh
+Eye-Non-Fresh
+Gill-Fresh
+Gill-Non-Fresh
 - 🌡 Temperature estimation based on classification
 - 📊 Freshness score (0–100) with High, Medium, Low indicators
 - 🔄 Data augmentation for robust performance
@@ -38,7 +38,7 @@ Built with **TensorFlow/Keras** for model training and **Streamlit** for an inte
 
 ## 🧪 How It Works
 
-1) Dataset Preparation
+1) Dataset Preparation: 
 Dataset sourced from Roboflow.
 Four classes: eye-fresh, eye-non-fresh, gill-fresh, gill-non-fresh.
 
@@ -47,18 +47,18 @@ Fresh: 0°C – 4°C
 Non-fresh: 5°C – 10°C
 (temp.py script creates fish_freshness_with_temperature.csv)
 
-3) Preprocessing & Augmentation (prep.py)
+3) Preprocessing & Augmentation (prep.py):
 Image resizing: 128×128 px
 Normalization: pixel values scaled to [0,1]
 Augmentations: rotation, shift, shear, zoom, horizontal flip
 
-4) Model Training
+4) Model Training:
 CNN architecture: 3× Conv2D + MaxPooling2D, Flatten, Dense layers
 Optimizer: Adam (LR=0.001), Loss: categorical cross entropy
 Early stopping & model checkpointing (temp_train.py)
 Final model saved as fish_freshness_model.h5
 
-5) Prediction & UI
+5) Prediction & UI:
 Users upload an image via Streamlit (fish_test.py or temp_test.py)
 Model predicts freshness category & confidence
 temp_test.py also:
